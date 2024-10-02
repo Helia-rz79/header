@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assests/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            font-family: "Afacad Flux", sans-serif;
+
+        }
+
+        header {
+            width: 100%;
+            height: 50px;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+
+            >* {
+                color: white;
+
+            }
+
+            >h1{
+                flex-basis: 20%;
+                padding-left: 5px;
+                >.icon-pinterest-circled{
+                    color: rgb(231, 22, 137);
+                }
+            }
+
+            >.menu {
+                width: 51%;
+                /* border: 2px solid blue; */
+                display: flex;
+                justify-content: center;
+
+                >ul {
+                    width: 100%;
+                    display: flex;
+                    flex-grow: 1;
+
+                    >li {
+                        width: 100%;
+                        height: 100%;
+                        list-style-type: none;
+                        /* background-color: aquamarine; */
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 22px;
+
+                        /* border: 1px solid red; */
+                        &:hover {
+                            >a {
+                                text-decoration: underline;
+                            }
+                        }
+
+                        >a {
+                            width: 100%;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            display: flex;
+                            justify-content: center;
+                            color: white;
+                            transition: 1s;
+
+
+                        }
+
+                    }
+                }
+            }
+
+            >section {
+                width: 8%;
+                border: 1px solid white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                text-transform: capitalize;
+                margin: 2px 0 2px 100px;
+
+
+            }
+
+            >div {
+                width: 10%;
+                background-color: rgb(231, 22, 137);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                text-transform: capitalize;
+                margin: 2px 0;
+                &:hover{
+                    background-color: rgba(231, 22, 137, 0.753);
+                }
+
+            }
+
+        }
+        section{
+            position: relative;
+
+        >.video {
+            width: 70%;
+            /* height: 360px; */
+            /* border: 2px solid red; */
+            margin: 50px 15%;
+        }
+
+        >.p{
+            /* border: 2px solid yellow; */
+            color: rgb(231, 22, 137);
+            font-size: 100px;
+            position: absolute;
+            left: 320px;top: 100px;
+        }
+
+        >p{
+            /* border: 2px solid red; */
+            color: white;
+            position: absolute;
+            left: 35%; top: 240px;
+            font-size: 70px;
+        }
+        >.botton{
+            position: absolute;
+            background-color: rgb(231, 22, 137);
+            color: white;
+            font-size: 20px;
+            left: 45%; bottom: 70px;
+            text-transform: uppercase;
+            transition: .6s;
+            &:hover{
+                background-color: rgba(231, 22, 137, 0.664);
+            }
+        }
+    }
+        h6{
+            color: white;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        nav{
+            padding-left: 40px;
+            padding-top: 5px;
+            >*{
+                color: rgba(231, 22, 137, 0.664);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><span class="icon-pinterest-circled"></span>open props</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="">how it works</a></li>
+                <li><a href="">goals</a></li>
+                <li><a href="">industries</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">resources</a></li>
+            </ul>
+        </nav>
+        <section>login <span class="icon-login"></span></section>
+        <div>get started</div>
+    </header>
+    <section>
+        <video class="video" src="video/video-1.mp4" autoplay muted loop>nkcdkbv</video>
+        <div class="p">Inspire audiences</div>
+        <p>with our Ads</p>
+        <div class="botton">get started</div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <h6>coded by: helia rezaie</h6>
+        <nav>
+            <a class="icon-mail" href="http://milto:h.rezaie2479@gmail.com" target="_blank"></a>
+            <a class="icon-linkedin-squared" href="http://linkdin.com/in/helia-rezaie-web" target="_blank"></a>
+            <a class="icon-instagram-1" href="http://www.instagram.com/helia.r-web" target="_blank"></a>
+        </nav>
+    </footer>
+    <br>
+
+</body>
+
+</html>
