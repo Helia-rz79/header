@@ -1,4 +1,4 @@
-# headr
+# header
 
 **😊If you have a lot of information to display on your site, why don't you use my accordion menu**
 
@@ -6,7 +6,7 @@
 
 
 
--🔗 [Demo Project](https://helia-rz79.github.io/project1/)
+-🔗 [Demo Project](https://helia-rz79.github.io/header/)
 
 -🙍 Developed by helia rezaie
 
